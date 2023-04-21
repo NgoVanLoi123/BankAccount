@@ -15,7 +15,7 @@ public class Main {
         account.recharge(amount);
         System.out.println("Nhập email muốn thay đổi:");
         FormHandle formHandle=new FormHandle();
-        String email= formHandle.FormatEmail(sc);
+        String email= formHandle.formatEmail(sc);
         account.changeEmail(email);
         account.displayInfo();
 

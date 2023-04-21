@@ -12,7 +12,7 @@ public class AccountHandle {
         System.out.println("Nhập số tài khoản");
         int accountNumber =Integer.parseInt(sc.nextLine());
         System.out.println("Mời bạn nhập email:");
-        String email= formHandle.FormatEmail(sc);
+        String email= formHandle.formatEmail(sc);
         System.out.println("Nhập số dư tài khoản:");
         double accountBalance=Double.parseDouble(sc.nextLine());
         return new Account(name,accountNumber,email,accountBalance);
